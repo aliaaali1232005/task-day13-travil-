@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+    border:none;
+    outline:none;
+
+    position: relative;
+
+    text-decoration: none;
+    list-style: none;
+
+} 
+
+ body{
+    min-height:100svh;
+    max-width:100svw;
+ }
+header{
+   
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: white;
+
+}
+nav ul{
+     display: flex;
+     padding: 10px;
+     gap: 10px;
+    margin: 10px;    
+}
+.nav-item{
+    color: white;
+}
+.h h1{
+margin: 10px;    
+}
+
+main{
+ background-image: url(https://travilifa.vercel.app/assets/Background-CrhoXMm2.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    min-height: 100vh;
+    align-items: center;
+   padding: 200px;
+   text-align: center;
+   color: white;
+}
+input{
+    padding: 20px;
+    padding-left: 300px;
+    text-align: center;
+}
