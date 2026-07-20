@@ -16,27 +16,9 @@
  body{
     min-height:100svh;
     max-width:100svw;
- }
-header{
-   
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    color: white;
+  }
 
-}
-nav ul{
-     display: flex;
-     padding: 10px;
-     gap: 10px;
-    margin: 10px;    
-}
-.nav-item{
-    color: white;
-}
-.h h1{
-margin: 10px;    
-}
+
 
 main{
  background-image: url(https://travilifa.vercel.app/assets/Background-CrhoXMm2.png);
@@ -48,8 +30,9 @@ main{
    text-align: center;
    color: white;
 }
-input{
-    padding: 20px;
-    padding-left: 300px;
-    text-align: center;
+.search{
+    width:80% ;
+}
+.card{
+display:flex;
 }

@@ -5,251 +5,369 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travilifa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 
 <body>
-    <header class="h">
-        <h1>Travilifa</h1>
+    <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Discover</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Service</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">News</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
+            <div class="container-fluid">
+                <a class="navbar-brand " href="#">Travilifa</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
 
-            </div>
+                </div>
             </div>
         </nav>
-        
+
+
+
+
     </header>
-<main>
-            <h2>Explore the world with a smile..</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis,
-                lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo,
-            </p>
-            <div>
-                <!-- icon -->
-                <input type="text" placeholder="Search for places to visit">
-                <button>Find trip now </button>
+
+
+    <main>
+        <h2>Explore the world with a smile..</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis,
+            lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo,
+        </p>
+        <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                    <div class="input-group input-group-lg shadow-sm rounded-4  p-1 bg-white border">
+                        <span class="input-group-text bg-transparent border-0 text-success ps-3">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </span>
+                        <input type="text" class="form-control border-0 shadow-none fs-6" placeholder="Search for places to visit">
+                        <button class="btn btn-success rounded-3 px-4 fs-6" type="button">
+                            Find trip now <i class="fa-solid fa-magnifying-glass ms-1"></i>
+                        </button>
+                    </div>
+                </div>
             </div>
-        </main>
+    </main>
     <section>
-        <div>
-            <img src="./Travilifa_files/Group34-CCNMeN_L.png">
+        <div class="d-flex align-items-center gap-4 p-5 ">
+            <img class="m-5" src="./Travilifa_files/Group34-CCNMeN_L.png">
             <div>
-                <h3>Travelers Point</h3>
+                <h4 class="text-success ">Travelers Point</h4>
                 <h2>We help to find your dream place</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis,
                     lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis
                     leo, vel fringilla est ullamcorper eget nulla facilisi</p>
                 <div>
-                    <div>
-                        <h3>100+</h3>
-                        <p>Holiday Package</p>
+                    <div class="d-flex gap-4">
+                        <div>
+                            <h4 class="text-success">100+</h4>
+                            <p>Holiday Package</p>
+                        </div>
+                        <div>
+                            <h4 class="text-success">172</h4>
+                            <p>Hotels</p>
+                        </div>
                     </div>
-                    <div>
-                        <h3>68</h3>
-                        <p>Elite Transportation</p>
-                    </div>
-                    <div>
-                        <h3>172</h3>
-                        <p>Hotels</p>
-                    </div>
-                    <div>
-                        <h3>32M+</h3>
-                        <p>we help to find your dream place</p>
+                    <div class="d-flex gap-4">
+                        <div>
+                            <h4 class="text-success">68</h4>
+                            <p>Elite Transportation</p>
+                        </div>
+                        <div>
+                            <h4 class="text-success">32M+</h4>
+                            <p>we help to find your dream place</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <section>
-        <h3>Top Destination</h3>
-        <h2>Discover your love</h2>
-        <div class="card" style="width: 18rem;">
-            <img src="./Travilifa_files/im1-vr5NYcdV.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h3 class="card-text">Kepulauan Wakatobi</h3>
-                <div>
-                    <p>Rp.9,5jt</p>
-                    <p>12 days for trip</p>
+        <h3 class="text-success text-center">Top Destination</h3>
+        <h2 class="text-center">Discover your love</h2>
+        <div class="d-flex flex-wrap justify-content-center gap-3 m-5">
+            <div class="card img-thumbnail " style="width: 25rem;">
+                <img src="./Travilifa_files/im1-vr5NYcdV.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-text text-center">Kepulauan Wakatobi</h5>
+                    <div class="d-flex gap-5 text-center  ms-5 p-3">
+                        <p>Rp.9,5jt</p>
+                        <p> <i class="fa-solid fa-location-arrow"></i> 12 days for trip</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="./Travilifa_files/im2-BPanQJRj.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h3 class="card-text">Raja Ampat, Papua Barat</h3>
-                <div>
-                    <p>Rp.20,5jt</p>
-                    <p>14 days for trip</p>
+            <div class="card img-thumbnail" style="width: 25rem;">
+                <img src="./Travilifa_files/im2-BPanQJRj.png" class="card-img-top" alt="...">
+                <div class="card-body ">
+                    <h5 class="card-text  text-center">Raja Ampat, Papua Barat</h5>
+                    <div class="d-flex gap-5 text-center ms-5 p-3">
+                        <p>Rp.20,5jt</p>
+                        <p> <i class="fa-solid fa-location-arrow"></i> 14 days for trip</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="./Travilifa_files/im3-DDX3TlF0.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h3 class="card-text">Taman Nasional Bromo</h3>
-                <div>
-                    <p>Rp.9,5jt</p>
-                    <p>7 days for trip</p>
+            <div class="card img-thumbnail" style="width: 25rem;">
+                <img src="./Travilifa_files/im3-DDX3TlF0.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-text  text-center">Taman Nasional Bromo</h5>
+                    <div class="d-flex gap-5 text-center  ms-5 p-3">
+                        <p>Rp.9,5jt</p>
+                        <p><i class="fa-solid fa-location-arrow"></i> 7 days for trip</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="./Travilifa_files/im3-DDX3TlF0.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h3 class="card-text">Gili Trawangan, Lombok</h3>
-                <div>
-                    <p>Rp.6,5jt</p>
-                    <p>7 days for trip</p>
+            <div class="card img-thumbnail" style="width: 25rem;">
+                <img src="./Travilifa_files/im3-DDX3TlF0.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-text  text-center">Gili Trawangan, Lombok</h5>
+                    <div class="d-flex gap-5 text-center  ms-5 p-3">
+                        <p>Rp.6,5jt</p>
+                        <p> <i class="fa-solid fa-location-arrow"></i> 7 days for trip</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="./Travilifa_files/im5-C97QMIH9.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h3 class="card-text">Taman Nasional Bunaken</h3>
-                <div>
-                    <p>Rp.10,5jt</p>
-                    <p>9 days for trip</p>
+            <div class="card img-thumbnail" style="width: 25rem;">
+                <img src="./Travilifa_files/im5-C97QMIH9.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-text  text-center">Taman Nasional Bunaken</h5>
+                    <div class="d-flex gap-5 text-center  ms-5 p-3">
+                        <p>Rp.10,5jt</p>
+                        <p> <i class="fa-solid fa-location-arrow"></i> 9 days for trip</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="./Travilifa_files/im6-BQVzfjLm.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h3 class="card-text">Taman Nasional Komodo</h3>
-                <div>
-                    <p>Rp.7,5jt</p>
-                    <p>7 days for trip</p>
+            <div class="card img-thumbnail" style="width: 25rem;">
+                <img src="./Travilifa_files/im6-BQVzfjLm.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-text  text-center">Taman Nasional Komodo</h5>
+                    <div class="d-flex gap-5 text-center ms-5  p-3 ">
+                        <p>Rp.7,5jt</p>
+                        <p> <i class="fa-solid fa-location-arrow"></i> 7 days for trip</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <section>
-        <h3>Testimonial</h3>
-        <h2>What they say about us</h2>
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <div>
-                    <img src="./Travilifa_files/user-DJYMfxhG.png">
-                    <h3 class="card-title">Robert John K.</h3>
+        <h3 class="text-success text-center">Testimonial</h3>
+        <h2 class="text-center">What they say about us</h2>
+        <div class="d-flex  flex-wrap justify-content-center gap-5 m-5">
+            <div class="card" style="width: 25rem;">
+                <div class="card-body ">
+                    <div class="d-flex gap-5 align-items-center">
+                        <img class="img-thumbnail rounded-circle" src="./Travilifa_files/user-DJYMfxhG.png "
+                            width="40px">
+                        <h5 class="card-title text-center">Robert John K.</h5>
+                    </div>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card’s content.</p>
                 </div>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card’s content.</p>
-            </div>
-            <div class="card-body">
-                <div>
-                    <img src="./Travilifa_files/user-DJYMfxhG.png">
-                    <h3 class="card-title">Robert John K.</h3>
+                <div class="card-body">
+                    <div class="d-flex gap-5 align-items-center">
+                        <img class="img-thumbnail rounded-circle" src="./Travilifa_files/user-DJYMfxhG.png"
+                            width="40px">
+                        <h5 class="card-title text-center">Robert John K.</h5>
+                    </div>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card’s content.</p>
                 </div>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card’s content.</p>
-            </div>
-            <div class="card-body">
-                <div>
-                    <img src="./Travilifa_files/user-DJYMfxhG.png">
-                    <h3 class="card-title">Robert John K.</h3>
+                <div class="card-body">
+                    <div class="d-flex gap-5 align-items-center">
+                        <img class="img-thumbnail rounded-circle" src="./Travilifa_files/user-DJYMfxhG.png"
+                            width="40px">
+                        <h5 class="card-title text-center">Robert John K.</h5>
+                    </div>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card’s content.</p>
                 </div>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card’s content.</p>
-            </div>
-            <div class="card-body">
-                <div>
-                    <img src="./Travilifa_files/user-DJYMfxhG.png">
-                    <h3 class="card-title">Robert John K.</h3>
+                <div class="card-body">
+                    <div class="d-flex gap-5 align-items-center">
+                        <img class="img-thumbnail rounded-circle" src="./Travilifa_files/user-DJYMfxhG.png"
+                            width="40px">
+                        <h5 class="card-title text-center">Robert John K.</h5>
+                    </div>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card’s content.</p>
                 </div>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card’s content.</p>
-            </div>
-            <div class="card-body">
-                <div>
-                    <img src="./Travilifa_files/user-DJYMfxhG.png">
-                    <h3 class="card-title">Robert John K.</h3>
+                <div class="card-body">
+                    <div class="d-flex gap-5 align-items-center">
+                        <img class="img-thumbnail rounded-circle" src="./Travilifa_files/user-DJYMfxhG.png"
+                            width="40px">
+                        <h5 class="card-title text-center">Robert John K.</h5>
+                    </div>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card’s content.</p>
                 </div>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card’s content.</p>
-            </div>
-            <div class="card-body">
-                <div>
-                    <img src="./Travilifa_files/user-DJYMfxhG.png">
-                    <h3 class="card-title">Robert John K.</h3>
+                <div class="card-body">
+                    <div class="d-flex gap-5 align-items-center">
+                        <img class="img-thumbnail rounded-circle" src="./Travilifa_files/user-DJYMfxhG.png"
+                            width="40px">
+                        <h5 class="card-title text-center">Robert John K.</h5>
+                    </div>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card’s content.</p>
                 </div>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card’s content.</p>
             </div>
         </div>
     </section>
-    <footer>
-        <div>
-            <div>
-                <h4>Travilifa</h4>
-                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis,
-                    lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis
-                    leo, vel</h5>
-            </div>
-            <div>
-                <h4>Links</h4>
-                <nav>
-                    <ul>
-                        <li>Discover</li>
-                        <li>Special Deals</li>
-                        <li>Services</li>
-                        <li>Community</li>
-                        <li>About Us</li>
-                    </ul>
-                </nav>
-            </div>
-            <div>
-                <h4>Services</h4>
-                <nav>
-                    <ul>
-                        <li>About Us</li>
-                        <li>Blog & Articles</li>
-                        <li>Term and Condition</li>
-                        <li>Privacy Policy</li>
-                        <li>Contact Us</li>
-                    </ul>
-                </nav>
+           <footer class="text-center text-lg-start bg-success text-muted">
 
-            </div>
-            <div>
-                <h4>Contact</h4>
-                <nav>
-                    <ul>
-                        <li>Egypt</li>
-                        <li>fatma72w@gmail.com</li>
-                        <li> +20 1004784403</li>
-                        <li> +20 1004784403</li>
-                    </ul>
-                </nav>
+            <section class=" p-4 border-bottom text-body">
+                <div class="container text-center text-md-start mt-5">
+                    <div class="row mt-3">
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                <i class="fas fa-gem me-3"></i> Travilifa</h6>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                                luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim
+                                praesent elementum facilisis leo, vel
+                            </p>
+                        </div>
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">Links
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset">Discover</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Special Deals</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Services</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Community</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">About Us</a>
+                            </p>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 ">
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Services
 
-            </div>
-        </div>
-        <div>
-            <h5>©2024 Copyright : Eng/Fatma Akram</h5>
-            <div>
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset">About Us
 
+                                </a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Term and Condition
+
+
+
+                                </a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Privacy Policy
+
+                                </a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Contact Us
+
+                                </a>
+                            </p>
+                        </div>
+
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 ">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                            <p><i class="fas fa-home me-3"></i> Egypt</p>
+                            <p>
+                                <i class="fas fa-envelope me-3"></i>
+                                fatma72w@gmail.com
+                            </p>
+                            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div >
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2021 Copyright:
+                <a class="text-reset fw-bold " href="https://mdbootstrap.com/">MDBootstrap.com</a>
+                <div class="p-4">
+                    <a href="" class="me-4   text-reset p-2  border border-1 border-body rounded-2">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset p-2  border border-1 border-body rounded-2">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset  p-2  border border-1 border-body rounded-2">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset  p-2  border border-1 border-body rounded-2">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset  p-2  border border-3border-body rounded-2">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset  p-2  border border-1 border-body rounded-2">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                </div>
             </div>
-        </div>
+            </section>
+        </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     </footer>
 
