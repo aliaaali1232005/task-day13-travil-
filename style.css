@@ -8,8 +8,8 @@
 
     position: relative;
 
-    text-decoration: none;
-    list-style: none;
+  text-decoration: none !important;
+      list-style: none; 
 
 } 
 
@@ -35,4 +35,74 @@ main{
 }
 .card{
 display:flex;
+}
+
+.footer{
+    color: #fffcfc;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+
+    /* Hero Section */
+    main{
+        min-height: 60vh;
+        padding: 90px 20px;
+        background-position: center;
+    }
+
+    main h2{
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    main p{
+        font-size: 15px;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    /* Search Box */
+    .input-group{
+        width: 100%;
+    }
+
+    .input-group input{
+        font-size: 14px;
+    }
+
+    .input-group button{
+        font-size: 14px;
+        padding: 10px 15px;
+        white-space: nowrap;
+    }
+
+    /* Travelers Section */
+    section .d-flex{
+        flex-direction: column;
+        text-align: center;
+        padding: 20px !important;
+    }
+
+    section .d-flex img{
+        width: 90%;
+        margin: 0 auto 20px !important;
+    }
+
+    /* Cards */
+    .card{
+        width: 100% !important;
+    }
+
+    /* Footer */
+    footer{
+        text-align: center;
+    }
 }
